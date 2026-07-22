@@ -47,8 +47,6 @@ Dans l'industrie petroliere et gaziere, les torcheres (gas flares) sont utilisee
     |-- app_gui.py                # Interface graphique (PySide6)
     |-- setup.ps1                 # Installation automatisee (venv + dependances)
     |-- data/                     # Videos/images d'entree (non versionnees)
-    |-- notebooks/
-    |   +-- exploration.ipynb
     |-- src/
     |   |-- realtime_monitor.py   # Pipeline temps reel (detection + tracking + classification)
     |   |-- flare_processor.py    # Wrapper du pipeline pour la GUI
