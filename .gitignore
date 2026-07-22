@@ -1,0 +1,50 @@
+# ── Python ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# ── Environnements & IDE ───────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.env
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ── Datasets (à télécharger depuis Roboflow, non versionnés) ──
+Gas Flaring Detection.v15i.yolov8/
+u2_eo_train*/
+flaring-gas-detection*/
+*.zip
+*.tar.gz
+*.rar
+
+# ── Poids de base pré-entraînés (téléchargés à la volée) ──
+yolov8*.pt
+yolo11n.pt
+
+# ── Vidéos de test en entrée + ROI (fournies séparément / régénérables) ──
+data/*.mp4
+data/*.mov
+data/*.avi
+data/*.mkv
+data/*.jpg
+data/*.png
+data/rois/
+data/external_test/
+
+# ── Sorties Ultralytics ────────────────────────────────
+runs/
+
+# ── Sorties d'entraînement / inférence (volumineuses) ──
+# Tout outputs/ est ignoré. Les modèles entraînés essentiels et les
+# 2 vidéos de démo sont suivis explicitement (ajoutés via git add -f).
+outputs/
+
+# ── Skills sans rapport avec le projet ─────────────────
+skills/
